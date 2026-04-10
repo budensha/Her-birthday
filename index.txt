@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For You</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-screen">
+        <button onclick="init()">Click to Open ❤️</button>
+    </div>
+
+    <div id="main-content" style="display:none;">
+        <div id="text-box"></div>
+        <canvas id="treeCanvas"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
